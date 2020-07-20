@@ -4,14 +4,14 @@
 Many of these descriptions and examples come from various resources (see [Acknowledgements](#acknowledgements) section), summarized in my own words.
 
 C++14 includes the following new language features:
-- [binary literals](#binary-literals)
-- [generic lambda expressions](#generic-lambda-expressions)
+- [binary literals](#binary-literals)二进制字面值
+- [generic lambda expressions](#generic-lambda-expressions) lambda表达式
 - [lambda capture initializers](#lambda-capture-initializers)
-- [return type deduction](#return-type-deduction)
-- [decltype(auto)](#decltypeauto)
-- [relaxing constraints on constexpr functions](#relaxing-constraints-on-constexpr-functions)
-- [variable templates](#variable-templates)
-- [\[\[deprecated\]\] attribute](#deprecated-attribute)
+- [return type deduction](#return-type-deduction) 返回类型推导
+- [decltype(auto)](#decltypeauto) 
+- [relaxing constraints on constexpr functions](#relaxing-constraints-on-constexpr-functions)弱化constexpr
+- [variable templates](#variable-templates) 变量模板
+- [\[\[deprecated\]\] attribute](#deprecated-attribute) deprecated属性
 
 C++14 includes the following new library features:
 - [user-defined literals for standard library types](#user-defined-literals-for-standard-library-types)

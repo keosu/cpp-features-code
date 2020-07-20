@@ -8,5 +8,8 @@
     "C_Cpp.clang_format_fallbackStyle": "Google",
     "C_Cpp.clang_format_style": "Google",
     "editor.formatOnSave": true,
-    "code-runner.executorMap": {}
+    "code-runner.executorMap": {},
+    "code-runner.executorMapByGlob": {
+        "pom.xml": "cd $dir && mvn clean package"
+    }
 }
